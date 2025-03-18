@@ -1,4 +1,4 @@
-# Ice-ages-in-AlphaCen
+# Mdwarf-tides
 
 This is a repository containing processed data and python scripts for the article "XXXXXXXX".  The paper investigates the potential for Earth-mass planets in the habitable zones of M dwarfs to host moons.
 
