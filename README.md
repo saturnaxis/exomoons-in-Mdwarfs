@@ -40,14 +40,6 @@ plot_FigXX.py
 
 where **XX** corresponds to the figure number in the manuscript.
 
-### Usage
-
-These scripts require **no command-line arguments**. Run them from inside the `python-scripts` directory:
-
-```bash
-python plot_FigXX.py
-```
-
 Each script will:
 
 - Load the appropriate data from `../data/`
@@ -56,7 +48,7 @@ Each script will:
 
 ### Dependencies
 
-These scripts rely on the following Python packages:
+These scripts rely mainly on the following Python packages:
 
 - `numpy`
 - `scipy` (version ≥ 1.4)
