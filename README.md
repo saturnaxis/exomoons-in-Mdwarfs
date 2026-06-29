@@ -21,7 +21,7 @@ Mdwarf-tides/
 All Python scripts assume the directory structure produced by cloning the repository:
 
 ```
-git clone https://github.com/<user>/Mdwarf-tides.git
+git clone https://github.com/<user>/exomoons-in-Mdwarfs.git
 ```
 
 They expect the `data` directory to be located at the same level as `python-scripts` and will write figures to `Figs/` automatically.

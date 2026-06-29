@@ -6,7 +6,7 @@ import os
 import multiprocessing as mp
 import sys
 
-home = "/home/u.bq252623/Shaan_Tides/"
+home = "/home/"
 
 #constants
 G = 4.*np.pi**2
