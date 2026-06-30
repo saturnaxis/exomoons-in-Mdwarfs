@@ -79,7 +79,7 @@ def deriv_t_Hut(t,y,kp,tau_p,M_p,R_p,M_m,M_star):
     demdt = dem_fact*(f_ecc(3,y[1])/em_beta**13-(11./18)*f_ecc(4,y[1])/em_beta**10*y[4]/n_m)
 
     #planet semimajor axis derivative
-    dapdt = dap_fact*(f_ecc(1,y[3])/em_beta**15-f_ecc(2,y[3])/ep_beta**12*y[4]/n_p)
+    dapdt = dap_fact*(f_ecc(1,y[3])/ep_beta**15-f_ecc(2,y[3])/ep_beta**12*y[4]/n_p)
     #planet eccentricity derivative
     depdt = dep_fact*(f_ecc(3,y[3])/ep_beta**13-(11./18)*f_ecc(4,y[3])/ep_beta**10*y[4]/n_p)
 
